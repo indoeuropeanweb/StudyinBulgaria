@@ -86,7 +86,7 @@ body {
   }
   .navbar {
     margin-bottom: 0;
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
     border: 0;
     font-size: 12px;
     line-height: 1.42857143;
@@ -96,11 +96,11 @@ body {
     padding: 16px 8px;
   }
   .navbar li a, .navbar .navbar-brand {
-    color: var(--tertiary-color) !important;
+    color: var(--secondary-color) !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: var(--secondary-color) !important;
-    background-color: var(--tertiary-color) !important;
+    color: var(--tertiary-color) !important;
+    background-color: var(--secondary-color) !important;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
@@ -286,7 +286,7 @@ body {
 }
 
 .form-heading{
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-align: center; 
     margin: 8px 0;
     font-weight: 600;
@@ -343,7 +343,7 @@ body {
     width: 100px;
     position: absolute;
     left: 0;
-    bottom: -5px;
+    bottom: -8px;
     background-color: var(--primary-color);
 }
 

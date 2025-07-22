@@ -35,9 +35,8 @@
 
 
 
-    document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("eligibilityForm");
-  // const successMessage = document.getElementById("success-message");
 
   const studentName = document.getElementById("textFName");
   const PhoneNo = document.getElementById("txtPhoneNo");
@@ -78,7 +77,7 @@
           PrefferedCallBackTime: CallTime.value || 2,
           HighestQualifcation: "",
           PrefferedBranchID: 0,
-          LandingPageUrl: window.location.href || "Bulgaria Website",
+          LandingPageUrl: window.location.href || "Study in Bulgaria Website",
           PhonenoOTPStatus: "0",
         });
 
@@ -108,9 +107,6 @@
             });
 
             setTimeout(() => {
-              // successMessage.classList.add("d-none");
-              // form.classList.remove("d-none");
-
               inputs.forEach((input) => {
                 input.value = "";
               });
@@ -144,7 +140,3 @@
     });
   });
 });
-
-
-
-    // alert("working");
